@@ -1,0 +1,15 @@
+##NVM on Ubuntu 18
+### sudo apt-get update
+### sudo apt install curl
+### curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+### NVM_DIR="$HOME/.nvm"
+## Load NVM
+### [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+## Load NVM bash completions
+### [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+### nvm ls-remote
+## chose from the list for example  v10.16.3
+## nvm install  v10.16.3
+## nvm use  v10.16.3
+## the version should match 
+## node -v
