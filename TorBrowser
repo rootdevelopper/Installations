@@ -1,0 +1,12 @@
+# Tor Browser Ubuntu 18
+## Download from:
+## https://www.torproject.org/download/
+## find on downloads or tmp folder:
+## extract folder from zip
+## replace your version, language and region.
+## tar -xvJf tor-browser-linux64-version.version.version_language-region.tar.xz
+## for example:
+### tar -xvJf tor-browser-linux64-7.5.2_en-US.tar.xz
+##
+### cd tor-browser_en-US
+###./start-tor-browser.desktop
