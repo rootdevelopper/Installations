@@ -2,19 +2,25 @@
 
 ## Ubuntu 18
 
-### sudo apt-get update
+### 
+sudo apt-get update
 
-### sudo apt install docker.io
+### 
+sudo apt install docker.io
 
 ## Set docker to start on computer boot
 
+### 
 sudo systemctl start docker
 
+### 
 sudo systemctl enable docker
 
 ## check version
 
+###
 docker --version
 
-## Add yourself to cker group
-### sudo usermod -a -G docker $USER
+## Add yourself to docker group
+### 
+sudo usermod -a -G docker $USER
